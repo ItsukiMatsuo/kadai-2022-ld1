@@ -1,23 +1,26 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <script>
-            alert("これはscriptの例です。")
-        </script>
-        <style>
-           .hello{
-               font-size: 20px;
-               color:red;
-           }
-           .bye{
-               font-size: 40px;
-               color:cyan
-           }
-        </style>
+        <title>プロフィール</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
     <body>
-        <p class="hello">こんにちは</p>
-        <p class="hello">Good morning</p>
-        <p class="bye">さようなら</p>
+        <div class="container">
+        <h1 class="display-1">プロフィールのサンプル</h1>
+        <p class="lead">私のプロフィールです。</p>
+        <div class="card" style="width: 18rem;">
+            <img width="200" class="img-thumbnail" src="https://github.com/ItsukiMatsuo/kadai-2022-ld1/blob/main/283%E7%B3%BB%E3%82%AA%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%B3%E3%82%A2%E3%83%AD%E3%83%BC.jpg" alt="283系">
+            <div class="card-body">
+                <h5 class="card-title">鉄道が好きです。</h5>
+                <p class="card-text">所属: <a class="btn btn-primary" href="http://www.ritsumei.ac.jp/">立命館大学</a></p>
+            </div>
+        </div>
+        
+        <h2>好きな食べ物</h2>
+        <ul class="list-group">
+            <li class="list-group-item">ラーメン</li>
+            <li class="list-group-item">ハンバーグ</li>
+            <li class="list-group-item">オムライス</li>
+        </ul>
     </body>
 </html>
